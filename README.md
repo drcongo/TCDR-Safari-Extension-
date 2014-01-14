@@ -1,6 +1,6 @@
 # TC;DR
 
-A Safari extension to let site owners know that you closed the tab and didn't read their article because of their bullshit modal overlays.
+A Safari extension to let site owners know that you closed the tab and didn't read their article because of their bullshit modal overlays. See [Tab Closed; Didn't Read](http://tabcloseddidntread.com) for more details.
 
 ## How
 
