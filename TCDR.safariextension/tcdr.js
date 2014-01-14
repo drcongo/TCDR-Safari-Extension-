@@ -47,4 +47,7 @@ function tcdr(tcdr){
 
 }
 
-safari.self.addEventListener("message", tcdr, false);
+// This allows the above function to be used for other browser extensions.
+if (typeof safari != 'undefined') {
+    safari.self.addEventListener("message", tcdr, false);
+}
