@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Andy Beaumont</string>
+	<key>Builder Version</key>
+	<string>9537.71</string>
+	<key>CFBundleDisplayName</key>
+	<string>TCDR</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.tabcloseddidntread</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.1</string>
+	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>global.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>tcdr</string>
+				<key>Identifier</key>
+				<string>tcdr</string>
+				<key>Image</key>
+				<string>img/icon-16.png</string>
+				<key>Label</key>
+				<string>TC;DR</string>
+				<key>Palette Label</key>
+				<string>TC;DR</string>
+				<key>Tool Tip</key>
+				<string>Tab Closed; Didn't Read</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>tcdr.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Tweet site owners to let them know that you left their site without reading the content.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>https://dl.dropboxusercontent.com/u/19291/code/safari/tcdr/updates.plist</string>
+	<key>Website</key>
+	<string>http://tabcloseddidntread.com</string>
+</dict>
+</plist>
