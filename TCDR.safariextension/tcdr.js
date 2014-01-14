@@ -19,6 +19,19 @@ function tcdr(tcdr){
             screen_names.push(link_split[link_split.length-1]);
             // console.log('Found screen name from link: ' + screen_names);
         };
+    } else {
+        // look for basic follow link without the title
+        // console.log("Checking basic follow links without the title");
+        var follow_links = document.querySelectorAll('a');
+        if(follow_links.length > 0){
+            for (var i = follow_links.length - 1; i >= 0; i--) {
+                var matches = follow_links[i].href.match(/^https?:\/\/twitter.com\/([^\?#\/]*)/);
+                if (matches) {
+                    screen_name_push(screen_names, screen_names_lookup, matches[1]);
+                    // console.log('Found screen name from link: ' + screen_names);
+                }
+            };
+        }
     }
 
     // look for a basic follow button
